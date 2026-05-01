@@ -12,7 +12,9 @@
 -->
 
 <p align="center">
-  <img src="./tamir-avatar.png" width="200" alt="tamir39"/>
+  <video src="https://github.com/tamir39/tamir39/raw/main/tamir.mp4" width="240" autoplay loop muted playsinline poster="./tamir-avatar.png">
+    <img src="./tamir-avatar.png" width="240" alt="tamir39"/>
+  </video>
 </p>
 
 <p align="center">
