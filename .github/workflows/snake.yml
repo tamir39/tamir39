@@ -25,6 +25,10 @@ jobs:
             dist/github-contribution-grid-snake.svg?color_snake=%230891B2&color_dots=%23EBEDF0,%23C4B5FD,%238B5CF6,%237C3AED,%2306B6D4
             dist/github-contribution-grid-snake-dark.svg?color_snake=%2322D3EE&color_dots=%231F2937,%234C1D95,%237C3AED,%23A78BFA,%2322D3EE
 
+      - name: fix hex prefix in generated svgs
+        run: |
+          sed -i -E 's/(--c[a-z0-9]):([0-9A-Fa-f]{6})([;}])/\1:#\2\3/g' dist/*.svg
+
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
