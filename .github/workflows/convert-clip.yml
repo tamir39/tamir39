@@ -25,12 +25,12 @@ jobs:
           mkdir -p assets
           ffmpeg -y -i tamir.mp4 \
             -vcodec libwebp \
-            -filter:v "fps=fps=24,scale=480:-1:flags=lanczos" \
+            -filter:v "fps=fps=24,scale=840:-1:flags=lanczos" \
             -lossless 0 -compression_level 6 -q:v 70 \
             -loop 0 -preset picture -an -vsync 0 \
             assets/tamir.webp
           ffmpeg -y -i tamir.mp4 \
-            -vf "fps=15,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" \
+            -vf "fps=15,scale=560:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" \
             -loop 0 \
             assets/tamir.gif
           ls -lh assets/

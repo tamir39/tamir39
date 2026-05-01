@@ -14,7 +14,7 @@
 <p align="center">
   <picture>
     <source srcset="./assets/tamir.webp" type="image/webp"/>
-    <img src="./assets/tamir.gif" width="240" alt="tamir39"/>
+    <img src="./assets/tamir.gif" width="420" alt="tamir39"/>
   </picture>
 </p>
 
