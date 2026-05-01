@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160" role="img" aria-label="tamir39 — web frontend × godot game dev">
+  <defs>
+    <linearGradient id="cv" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="cvFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .name { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; font-weight: 700; font-size: 56px; letter-spacing: 4px; }
+      .tag  { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; font-weight: 400; font-size: 14px; letter-spacing: 6px; fill: #F5F5F5; }
+      @media (prefers-color-scheme: light) { .tag { fill: #0F172A; } }
+      .trace { fill: none; stroke: url(#cvFade); stroke-width: 1.25; stroke-linecap: round; }
+      .pip   { fill: #22D3EE; }
+    </style>
+  </defs>
+
+  <g class="trace">
+    <path d="M 40 38 H 240 L 256 22 H 360" stroke-dasharray="600" stroke-dashoffset="600">
+      <animate attributeName="stroke-dashoffset" from="600" to="0" dur="1.6s" begin="0s" fill="freeze"/>
+    </path>
+    <path d="M 760 38 H 560 L 544 22 H 440" stroke-dasharray="600" stroke-dashoffset="600">
+      <animate attributeName="stroke-dashoffset" from="600" to="0" dur="1.6s" begin="0.1s" fill="freeze"/>
+    </path>
+    <path d="M 40 122 H 200 L 216 138 H 320" stroke-dasharray="600" stroke-dashoffset="600">
+      <animate attributeName="stroke-dashoffset" from="600" to="0" dur="1.6s" begin="0.3s" fill="freeze"/>
+    </path>
+    <path d="M 760 122 H 600 L 584 138 H 480" stroke-dasharray="600" stroke-dashoffset="600">
+      <animate attributeName="stroke-dashoffset" from="600" to="0" dur="1.6s" begin="0.4s" fill="freeze"/>
+    </path>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="1.6s" fill="freeze"/>
+    <circle cx="360" cy="22" r="2.5" class="pip"/>
+    <circle cx="440" cy="22" r="2.5" class="pip"/>
+    <circle cx="320" cy="138" r="2.5" class="pip"/>
+    <circle cx="480" cy="138" r="2.5" class="pip"/>
+  </g>
+
+  <text x="400" y="92" text-anchor="middle" class="name" fill="url(#cv)" opacity="0">
+    tamir39
+    <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="1.2s" fill="freeze"/>
+  </text>
+
+  <text x="400" y="120" text-anchor="middle" class="tag" opacity="0">
+    WEB  ·  GODOT  ·  SHIPPING
+    <animate attributeName="opacity" from="0" to="0.85" begin="1.2s" dur="1.4s" fill="freeze"/>
+  </text>
+
+  <g opacity="0.6">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite" begin="2s"/>
+    <line x1="240" y1="80" x2="248" y2="80" stroke="#22D3EE" stroke-width="1"/>
+    <line x1="552" y1="80" x2="560" y2="80" stroke="#8B5CF6" stroke-width="1"/>
+  </g>
+</svg>
