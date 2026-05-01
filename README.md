@@ -12,9 +12,10 @@
 -->
 
 <p align="center">
-  <video src="https://github.com/tamir39/tamir39/raw/main/tamir.mp4" width="240" autoplay loop muted playsinline poster="./tamir-avatar.png">
-    <img src="./tamir-avatar.png" width="240" alt="tamir39"/>
-  </video>
+  <picture>
+    <source srcset="./assets/tamir.webp" type="image/webp"/>
+    <img src="./assets/tamir.gif" width="240" alt="tamir39"/>
+  </picture>
 </p>
 
 <p align="center">

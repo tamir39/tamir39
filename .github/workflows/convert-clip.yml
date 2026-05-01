@@ -1,0 +1,45 @@
+name: convert clip
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - tamir.mp4
+      - .github/workflows/convert-clip.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: convert mp4 to animated webp + gif
+        run: |
+          mkdir -p assets
+          ffmpeg -y -i tamir.mp4 \
+            -vcodec libwebp \
+            -filter:v "fps=fps=24,scale=480:-1:flags=lanczos" \
+            -lossless 0 -compression_level 6 -q:v 70 \
+            -loop 0 -preset picture -an -vsync 0 \
+            assets/tamir.webp
+          ffmpeg -y -i tamir.mp4 \
+            -vf "fps=15,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" \
+            -loop 0 \
+            assets/tamir.gif
+          ls -lh assets/
+
+      - name: commit converted files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/tamir.webp assets/tamir.gif
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "chore(profile): regenerate tamir.webp + tamir.gif [skip ci]"
+            git push
+          fi
