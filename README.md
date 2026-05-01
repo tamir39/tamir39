@@ -83,12 +83,12 @@ user@tamir39:~$ _
 ## `> ls ~/projects/pinned/`
 
 <p align="center">
-  <a href="https://github.com/tamir39/<PINNED_REPO_1>"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tamir39&repo=<PINNED_REPO_1>&theme=radical&hide_border=true&bg_color=0D0221&title_color=FF2A6D&icon_color=05D9E8&text_color=D1F7FF" alt="pinned 1"/></a>
-  <a href="https://github.com/tamir39/<PINNED_REPO_2>"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tamir39&repo=<PINNED_REPO_2>&theme=radical&hide_border=true&bg_color=0D0221&title_color=FF2A6D&icon_color=05D9E8&text_color=D1F7FF" alt="pinned 2"/></a>
+  <a href="https://github.com/tamir39/project-os"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tamir39&repo=project-os&theme=radical&hide_border=true&bg_color=0D0221&title_color=FF2A6D&icon_color=05D9E8&text_color=D1F7FF" alt="pinned 1"/></a>
+  <a href="https://github.com/tamir39/escape-the-belt-2d-game"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tamir39&repo=escape-the-belt-2d-game&theme=radical&hide_border=true&bg_color=0D0221&title_color=FF2A6D&icon_color=05D9E8&text_color=D1F7FF" alt="pinned 2"/></a>
 </p>
 <p align="center">
-  <a href="https://github.com/tamir39/<PINNED_REPO_3>"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tamir39&repo=<PINNED_REPO_3>&theme=radical&hide_border=true&bg_color=0D0221&title_color=FF2A6D&icon_color=05D9E8&text_color=D1F7FF" alt="pinned 3"/></a>
-  <a href="https://github.com/tamir39/<PINNED_REPO_4>"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tamir39&repo=<PINNED_REPO_4>&theme=radical&hide_border=true&bg_color=0D0221&title_color=FF2A6D&icon_color=05D9E8&text_color=D1F7FF" alt="pinned 4"/></a>
+  <a href="https://github.com/tamir39/my-portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tamir39&repo=my-portfolio&theme=radical&hide_border=true&bg_color=0D0221&title_color=FF2A6D&icon_color=05D9E8&text_color=D1F7FF" alt="pinned 3"/></a>
+  <a href="https://github.com/tamir39/vqa-viet-project"><img src="https://github-readme-stats.vercel.app/api/pin/?username=tamir39&repo=vqa-viet-project&theme=radical&hide_border=true&bg_color=0D0221&title_color=FF2A6D&icon_color=05D9E8&text_color=D1F7FF" alt="pinned 4"/></a>
 </p>
 
 <!-- ── SOCIALS ──────────────────────────────────────────────────────────── -->
