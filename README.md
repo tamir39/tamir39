@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://tamir39-portfolio.vercel.app/">
+  <a href="https://tamir39-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
     <img src="./assets/hero.svg" width="800" alt="tamir39 · web · godot · shipping"/>
   </a>
 </p>
