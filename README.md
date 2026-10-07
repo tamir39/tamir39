@@ -1,156 +1,85 @@
-<!--
-  tamir39 · circuit-familiar profile
-  ────────────────────────────────────────────────────────────
-  fill in these tokens with your real values, then commit:
-    <NOW_PLAYING>      one line · what you're shipping
-    <NOW_LEARNING>     one line · what you're studying
-    <LINKEDIN_HANDLE>  e.g. tam-phi
-    <X_HANDLE>         e.g. tamir39           (or remove the link)
-    <ITCHIO_HANDLE>    e.g. tamir39           (or remove the link)
-    <TELEGRAM_HANDLE>  e.g. tamir39           (or remove the link)
-    <DISCORD_INVITE>   discord username/invite (or remove the link)
--->
-
 <p align="center">
-  <picture>
-    <source srcset="./assets/tamir.webp" type="image/webp"/>
-    <img src="./assets/tamir.gif" width="420" alt="tamir39"/>
-  </picture>
+  <img src="./tamir-avatar.png" width="140" alt="Tamir's circuit-inspired cat emblem" />
 </p>
 
-<p align="center">
-  <a href="https://tamir39-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/hero.svg" width="800" alt="tamir39 · web · godot · shipping"/>
-  </a>
-</p>
+<h1 align="center">Tamir</h1>
+<p align="center">Phí Vương Tường Tâm</p>
+<p align="center"><strong>Frontend developer with an eye for design and a focus on how things work.</strong></p>
+<p align="center">UI/UX · Visual refinement · User flows</p>
 
 <p align="center">
-  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=720&height=44&lines=%E2%9A%A1+web+frontend+%C3%97+godot+game+dev;%E2%9A%A1+building+at+the+boundary+of+web+%26+games;%E2%9A%A1+currently+shipping+side-quests" alt="typing"/></a>
+  <a href="https://tamir39-portfolio.vercel.app/">Portfolio</a>
+  &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/tam-phi-vuong-tuong-686919388/">LinkedIn</a>
+  &nbsp; · &nbsp;
+  <a href="https://zuno-lyart.vercel.app/">Zuno</a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tamir39&style=for-the-badge&color=22D3EE&labelColor=0D1117&label=PROFILE+VIEWS" alt="views"/>
-  <img src="https://img.shields.io/github/followers/tamir39?style=for-the-badge&color=22D3EE&labelColor=0D1117&label=FOLLOWERS" alt="followers"/>
-  <img src="https://img.shields.io/github/stars/tamir39?style=for-the-badge&color=8B5CF6&labelColor=0D1117&label=STARS" alt="stars"/>
-</p>
+---
 
-<br/>
+## About me
 
-<p align="center">
-  <sub>building shippable products at the boundary of web and games.</sub>
-</p>
+I'm Tamir, a freelance frontend developer and computer science student at Ton Duc Thang University. My work centers on UI/UX: refining the visual details of an interface and making its interactions and user flows easier to follow.
 
-<p align="center">
-  <strong>now</strong>&nbsp;&nbsp;<NOW_PLAYING>&nbsp;&nbsp;&nbsp;⌁&nbsp;&nbsp;&nbsp;<strong>learning</strong>&nbsp;&nbsp;<NOW_LEARNING>
-</p>
+I'm drawn to the connection between design and implementation—how a layout, a small interaction, and the logic behind it come together to shape the experience.
 
-<br/>
+Currently, I'm deepening my UI/UX skills and learning full stack development so I can build more of a product myself.
 
-## ⌁ stack
+## What I focus on
 
-<p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,html,css,vite,nodejs&theme=dark" alt="web"/></a>
-</p>
-<p align="center">
-  <a href="#"><img src="https://skillicons.dev/icons?i=godot,cs,blender,figma,vscode,git,github&theme=dark" alt="game · tools"/></a>
-</p>
+- **Visual refinement:** improving layout, spacing, typography, and consistency across interfaces.
+- **User experience:** making navigation, interactions, and the steps in a task clearer.
+- **Frontend integration:** connecting interface elements with application logic to make features work together.
 
-<br/>
+## My toolkit
 
-## ⌁ telemetry
+Across my dashboard, storefront, and personal application work, I use:
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tamir39&theme=nord_dark" height="180" alt="stats"/>
-  <img src="https://streak-stats.demolab.com/?user=tamir39&hide_border=true&background=0D1117&stroke=22D3EE&ring=22D3EE&fire=8B5CF6&currStreakLabel=22D3EE&sideLabels=22D3EE&currStreakNum=F5F5F5&sideNums=F5F5F5&dates=A1A1AA" height="180" alt="streak"/>
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tamir39&theme=nord_dark" height="180" alt="repos per language"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tamir39&theme=nord_dark" height="180" alt="most commit language"/>
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tamir39&theme=nord_dark&utcOffset=7" height="200" alt="productive time"/>
-</p>
+| Area | Tools |
+| --- | --- |
+| Frontend | React, TypeScript, Tailwind CSS |
+| Frameworks & tooling | Next.js, Vite |
+| Components & motion | shadcn/ui, Radix UI, Motion / Framer Motion |
+| State & data | Zustand, TanStack Query |
 
-<br/>
+I'm also building full stack experience through Zuno with PostgreSQL and Drizzle ORM.
 
-## ⌁ trophies
+## Experience
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tamir39&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies"/></a>
-</p>
+### Twohearts
 
-<br/>
+**Frontend development & UI/UX design · June 2026–present**
 
-## ⌁ activity
+My work includes frontend refinement and connecting interfaces with application logic, with a focus on visual quality and user flows.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tamir39/tamir39/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tamir39/tamir39/output/github-contribution-grid-snake.svg"/>
-  <img alt="contribution graph" src="https://raw.githubusercontent.com/tamir39/tamir39/output/github-contribution-grid-snake-dark.svg"/>
-</picture>
+### Freelance
 
-<br/>
+**Currently open to freelance work**
 
-## ⌁ pinned
+My focus is frontend development, UI/UX improvements, and refining existing interfaces.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/tamir39/project-os">
-        <h3>◈ project-os</h3>
-      </a>
-      <sub>ProjectOS is a local-only, read-only personal project dashboard.</sub><br/><br/>
-      <img src="https://img.shields.io/github/languages/top/tamir39/project-os?color=22D3EE&labelColor=0D1117&style=flat-square"/>
-      <img src="https://img.shields.io/github/stars/tamir39/project-os?color=8B5CF6&labelColor=0D1117&style=flat-square&logo=github&logoColor=F5F5F5"/>
-      <img src="https://img.shields.io/github/last-commit/tamir39/project-os?color=22D3EE&labelColor=0D1117&style=flat-square"/>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/tamir39/escape-the-belt-2d-game">
-        <h3>◈ escape-the-belt-2d-game</h3>
-      </a>
-      <sub>Navigate a lethal asteroid field. Fuel your engines, dodge the chaos, reach 500 points to Escape the Belt.</sub><br/><br/>
-      <img src="https://img.shields.io/github/languages/top/tamir39/escape-the-belt-2d-game?color=22D3EE&labelColor=0D1117&style=flat-square"/>
-      <img src="https://img.shields.io/github/stars/tamir39/escape-the-belt-2d-game?color=8B5CF6&labelColor=0D1117&style=flat-square&logo=github&logoColor=F5F5F5"/>
-      <img src="https://img.shields.io/github/last-commit/tamir39/escape-the-belt-2d-game?color=22D3EE&labelColor=0D1117&style=flat-square"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/tamir39/my-portfolio">
-        <h3>◈ my-portfolio</h3>
-      </a>
-      <sub>Personal portfolio site — typescript / web frontend playground.</sub><br/><br/>
-      <img src="https://img.shields.io/github/languages/top/tamir39/my-portfolio?color=22D3EE&labelColor=0D1117&style=flat-square"/>
-      <img src="https://img.shields.io/github/stars/tamir39/my-portfolio?color=8B5CF6&labelColor=0D1117&style=flat-square&logo=github&logoColor=F5F5F5"/>
-      <img src="https://img.shields.io/github/last-commit/tamir39/my-portfolio?color=22D3EE&labelColor=0D1117&style=flat-square"/>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/tamir39/vqa-viet-project">
-        <h3>◈ vqa-viet-project</h3>
-      </a>
-      <sub>Deep Learning final project — visual question answering on Vietnamese data.</sub><br/><br/>
-      <img src="https://img.shields.io/github/languages/top/tamir39/vqa-viet-project?color=22D3EE&labelColor=0D1117&style=flat-square"/>
-      <img src="https://img.shields.io/github/stars/tamir39/vqa-viet-project?color=8B5CF6&labelColor=0D1117&style=flat-square&logo=github&logoColor=F5F5F5"/>
-      <img src="https://img.shields.io/github/last-commit/tamir39/vqa-viet-project?color=22D3EE&labelColor=0D1117&style=flat-square"/>
-    </td>
-  </tr>
-</table>
+## Team achievement
 
-<br/>
+**F&B Track winner · Agentic AI Build Week 2026**
 
-## ⌁ connect
+Part of the Twohearts team that won the KFC Vietnam-sponsored F&B Track at Agentic AI Build Week, organized by GenAI Fund.
 
-<p align="center">
-  <a href="mailto:tamphi5002@gmail.com"><img src="https://img.shields.io/badge/mail-22D3EE?style=for-the-badge&logo=gmail&logoColor=0D1117&labelColor=0D1117" alt="mail"/></a>
-  <a href="https://www.linkedin.com/in/<LINKEDIN_HANDLE>/"><img src="https://img.shields.io/badge/linkedin-22D3EE?style=for-the-badge&logo=linkedin&logoColor=0D1117&labelColor=0D1117" alt="linkedin"/></a>
-  <a href="https://x.com/<X_HANDLE>"><img src="https://img.shields.io/badge/x-8B5CF6?style=for-the-badge&logo=x&logoColor=F5F5F5&labelColor=0D1117" alt="x"/></a>
-  <a href="https://<ITCHIO_HANDLE>.itch.io/"><img src="https://img.shields.io/badge/itch-8B5CF6?style=for-the-badge&logo=itchdotio&logoColor=F5F5F5&labelColor=0D1117" alt="itch"/></a>
-  <a href="https://t.me/<TELEGRAM_HANDLE>"><img src="https://img.shields.io/badge/telegram-22D3EE?style=for-the-badge&logo=telegram&logoColor=0D1117&labelColor=0D1117" alt="telegram"/></a>
-  <a href="https://discord.com/users/<DISCORD_INVITE>"><img src="https://img.shields.io/badge/discord-8B5CF6?style=for-the-badge&logo=discord&logoColor=F5F5F5&labelColor=0D1117" alt="discord"/></a>
-</p>
+[View the organizer's announcement →](https://www.linkedin.com/posts/genai-fund_aabw2026-aabwxgaf-activity-7482359686189445120-FEhQ)
 
-<br/>
+## My application
 
-<p align="center">
-  <sub><code>// END_OF_TRANSMISSION</code></sub>
-</p>
+### [Zuno](https://zuno-lyart.vercel.app/)
+
+Zuno is my personal application: a private social timeline built around shared spaces called **Zones**. Members can share text and images, react to posts, and vote within their space.
+
+It's where I explore the connection between interface design and full stack development—from joining a Zone to sharing and interacting with its timeline.
+
+**Built with:** Next.js · React · TypeScript · Tailwind CSS · Zustand · PostgreSQL
+
+[Explore Zuno →](https://zuno-lyart.vercel.app/)
+
+## Let's connect
+
+For freelance work and collaboration, find me on [LinkedIn](https://www.linkedin.com/in/tam-phi-vuong-tuong-686919388/) or call **0938 419 071**.
+
+More about my work: [tamir39-portfolio.vercel.app](https://tamir39-portfolio.vercel.app/).
