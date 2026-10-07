@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="title desc">
+<title id="title">Zuno — a shared space for your moments</title><desc id="desc">Tamir's personal application. Private Zones, social timelines, posts, reactions and votes.</desc>
+<defs><linearGradient id="a"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+<rect x="1" y="1" width="998" height="238" rx="18" fill="#101820" stroke="#263b48"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="34" y="38" fill="#67e8f9" font-size="12" letter-spacing="3">PERSONAL PRODUCT / ZUNO</text><text x="32" y="91" fill="#f0f6fc" font-size="42" font-weight="700">A shared space.</text><text x="32" y="136" fill="url(#a)" font-size="42" font-weight="700">Your moments.</text><text x="34" y="174" fill="#aebbc9" font-size="16">Private Zones. Social timelines. Small interactions.</text><text x="34" y="210" fill="#67e8f9" font-size="15">EXPLORE ZUNO ↗</text></g>
+<g stroke="#344658" fill="#162330"><rect x="690" y="30" width="257" height="175" rx="13"/><rect x="666" y="48" width="257" height="175" rx="13" fill="#121c26"/></g>
+<circle cx="691" cy="74" r="8" fill="#a78bfa"/>
+<g stroke="#496073" stroke-linecap="round"><path d="M711 71H790M711 79H756" stroke-width="4"/><path d="M686 174H880M686 185H849" stroke-width="4"/></g>
+<rect x="684" y="97" width="221" height="60" rx="8" fill="#203648"/>
+<path d="M684 149L741 117L784 141L830 107L905 149" fill="none" stroke="url(#a)" stroke-width="2"/>
+<circle cx="875" cy="114" r="6" fill="#67e8f9"/>
+<g fill="#2e4256"><rect x="685" y="201" width="35" height="10" rx="5"/><rect x="726" y="201" width="35" height="10" rx="5"/></g>
+</svg>
