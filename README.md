@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" width="100%" alt="Tamir — frontend and UI/UX. Interfaces with intention. Phí Vương Tường Tâm. Open to freelance work." />
+  <img src="./assets/profile-hero.svg" width="100%" alt="Tamir — frontend and UI/UX. Interfaces with intention. Phí Vương Tường Tâm. Frontend development and UI/UX design." />
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 ## 01 / Behind the interface
 
-I'm **Tamir — Phí Vương Tường Tâm**, a freelance frontend developer and computer science student at **Ton Duc Thang University**. I work where visual design meets application logic: refining the details people see and the flows they move through.
+I'm **Tamir — Phí Vương Tường Tâm**, a frontend developer and computer science student at **Ton Duc Thang University**. I work where visual design meets application logic: refining the details people see and the flows they move through.
 
 <table>
 <tr>
@@ -81,7 +81,7 @@ It's where I explore the entire product flow—from joining a Zone to sharing an
 ---
 
 <p align="center"><strong>Have an interface that could work—and feel—better?</strong></p>
-<p align="center">Open to freelance frontend development and UI/UX work.</p>
+<p align="center">Connect with me about frontend development, UI/UX, and thoughtful products.</p>
 <p align="center">
   <a href="https://www.linkedin.com/in/tam-phi-vuong-tuong-686919388/">Let's connect on LinkedIn ↗</a>
   &nbsp; · &nbsp; <strong>0938 419 071</strong>
