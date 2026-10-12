@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 <p align="center">
   <img src="./assets/profile-hero.svg" width="100%" alt="Tamir — frontend and UI/UX. Interfaces with intention. Phí Vương Tường Tâm. Frontend development and UI/UX design." />
 </p>
@@ -10,7 +12,17 @@
   <a href="https://zuno-lyart.vercel.app/">Try Zuno ↗</a>
 </p>
 
+<p align="center">
+  <a href="#about">About me</a> &nbsp; · &nbsp;
+  <a href="#work">Work &amp; recognition</a> &nbsp; · &nbsp;
+  <a href="#zuno">Zuno</a> &nbsp; · &nbsp;
+  <a href="#toolkit">Toolkit</a> &nbsp; · &nbsp;
+  <a href="#contact">Contact</a>
+</p>
+
 <br />
+
+<a name="about"></a>
 
 ## 01 / Behind the interface
 
@@ -19,23 +31,39 @@ I'm **Tamir — Phí Vương Tường Tâm**, a frontend developer and computer 
 <table>
 <tr>
 <td width="33%" valign="top">
-<h3>Visual craft</h3>
+<details>
+<summary><strong>Visual craft</strong></summary>
+<p>
 Layout, spacing, typography, and the small details that make an interface feel coherent.
+</p>
+</details>
 </td>
 <td width="33%" valign="top">
-<h3>Thoughtful flows</h3>
+<details>
+<summary><strong>Thoughtful flows</strong></summary>
+<p>
 Clear navigation and interactions that help people move through a task with confidence.
+</p>
+</details>
 </td>
 <td width="33%" valign="top">
-<h3>Connected experiences</h3>
+<details>
+<summary><strong>Connected experiences</strong></summary>
+<p>
 Frontend features that bring the interface and application logic together.
+</p>
+</details>
 </td>
 </tr>
 </table>
 
+<sub>Expand a focus area to read more.</sub>
+
 **Currently exploring →** Deeper UI/UX practice and full stack development through my own product, Zuno.
 
 <br />
+
+<a name="work"></a>
 
 ## 02 / Work & recognition
 
@@ -51,6 +79,8 @@ Frontend features that bring the interface and application logic together.
 
 <br /><br />
 
+<a name="zuno"></a>
+
 ## 03 / Something of my own
 
 <a href="https://zuno-lyart.vercel.app/">
@@ -61,9 +91,22 @@ Frontend features that bring the interface and application logic together.
 
 It's where I explore the entire product flow—from joining a Zone to sharing and interacting with its timeline—and build experience beyond the frontend.
 
+<details>
+<summary><strong>Explore the Zuno flow &amp; technology</strong></summary>
+
+1. Create or join a private Zone through an invite.
+2. Share text and images in its timeline.
+3. React to posts and participate in votes with other members.
+
 <sub>Next.js · React · TypeScript · Tailwind CSS · Zustand · PostgreSQL · Drizzle ORM</sub>
 
+[Try Zuno ↗](https://zuno-lyart.vercel.app/)
+
+</details>
+
 <br /><br />
+
+<a name="toolkit"></a>
 
 ## 04 / Tools behind the work
 
@@ -71,14 +114,21 @@ It's where I explore the entire product flow—from joining a Zone to sharing an
   <img src="https://skillicons.dev/icons?i=react,ts,tailwind,nextjs,vite,postgres&theme=dark" height="42" alt="React, TypeScript, Tailwind CSS, Next.js, Vite, PostgreSQL" />
 </p>
 
+<details>
+<summary><strong>See my toolkit by area</strong></summary>
+
 **Core frontend** &nbsp; React · TypeScript · Tailwind CSS · Next.js · Vite<br />
 **Components & motion** &nbsp; shadcn/ui · Radix UI · Motion / Framer Motion<br />
 **State & data** &nbsp; Zustand · TanStack Query<br />
 **Growing full stack experience** &nbsp; PostgreSQL · Drizzle ORM
 
+</details>
+
 <br />
 
 ---
+
+<a name="contact"></a>
 
 <p align="center"><strong>Have an interface that could work—and feel—better?</strong></p>
 <p align="center">Connect with me about frontend development, UI/UX, and thoughtful products.</p>
@@ -87,3 +137,5 @@ It's where I explore the entire product flow—from joining a Zone to sharing an
   &nbsp; · &nbsp; <strong>0938 419 071</strong>
 </p>
 <p align="center"><sub>Tamir / Design → Develop → Refine</sub></p>
+
+<p align="center"><a href="#top">Back to top ↑</a></p>
