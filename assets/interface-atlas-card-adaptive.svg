@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="167" viewBox="0 0 1000 167" role="img" aria-labelledby="title"><title id="title">Interface Atlas — a frontend UI/UX knowledge library by Tamir. Visual references, design specifications, and reference previews.</title><style>:root{--paper:#ffffff;--ink:#1f2328;--muted:#59636e;--accent:#0969da;--line:#d1d9e0;--surface:#f6f8fa;--green:#1a7f37;--accentSurface:#ddf4ff;--level-0:#ebedf0;--level-1:#9be9a8;--level-2:#40c463;--level-3:#30a14e;--level-4:#216e39}@media(prefers-color-scheme:dark){:root{--paper:#0d1117;--ink:#f0f6fc;--muted:#9198a1;--accent:#4493f8;--line:#3d444d;--surface:#151b23;--green:#3fb950;--accentSurface:#121d2f;--level-0:#161b22;--level-1:#0e4429;--level-2:#006d32;--level-3:#26a641;--level-4:#39d353}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.trace{opacity:0}
+@media(prefers-reduced-motion:no-preference){
+  .bar,.draw{animation:highlight 5s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  .pulse{animation:highlight 3.2s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  .trace{opacity:1;stroke-dasharray:.12 .88;animation:trace 7s linear infinite;animation-delay:var(--delay,0ms)}
+  .orbit{transform-origin:var(--center);animation:orbit 12s linear infinite}
+  .float{transform-box:fill-box;transform-origin:center;animation:float 6s ease-in-out infinite}
+  .cell{animation:highlight 5.6s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  @keyframes highlight{0%,100%{opacity:1}50%{opacity:.65}}
+  @keyframes trace{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+  @keyframes orbit{to{transform:rotate(360deg)}}
+  @keyframes float{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-2px) rotate(2deg)}}
+}
+</style><rect x=".5" y=".5" width="999" height="166" rx="10" fill="var(--paper)" stroke="var(--line)"/><text x="28" y="32" font-size="12" fill="var(--accent)" font-weight="600" class="mono">UI/UX KNOWLEDGE LIBRARY / PERSONAL PROJECT</text><text x="26" y="78" font-size="37" fill="var(--ink)" font-weight="600" >Interface Atlas</text><text x="28" y="111" font-size="20" fill="var(--ink)" font-weight="400" >From visual references to design decisions.</text><text x="28" y="143" font-size="14" fill="var(--muted)" font-weight="400" >Design tokens · Motion · Accessibility · Source credits</text><g transform="translate(640 24)"><rect width="332" height="118" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+      <path d="M49 49H281" stroke="var(--line)" stroke-width="2"/>
+      <path class="trace" pathLength="1" d="M49 49H281" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round"/><rect x="29" y="27" width="40" height="44" rx="5" fill="var(--paper)" stroke="var(--line)"/>
+        <path class="draw" style="--delay:-0ms" d="M40 40H58M40 49H58M40 58H52" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/><text x="49" y="97" font-size="13" fill="var(--muted)" font-weight="500" text-anchor="middle">Theme</text><rect x="145" y="27" width="40" height="44" rx="5" fill="var(--paper)" stroke="var(--line)"/>
+        <path class="draw" style="--delay:-900ms" d="M156 40H174M156 49H174M156 58H168" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/><text x="165" y="97" font-size="13" fill="var(--muted)" font-weight="500" text-anchor="middle">Design</text><rect x="261" y="27" width="40" height="44" rx="5" fill="var(--paper)" stroke="var(--line)"/>
+        <path class="draw" style="--delay:-1800ms" d="M272 40H290M272 49H290M272 58H284" stroke="var(--green)" stroke-width="2" stroke-linecap="round"/><text x="281" y="97" font-size="13" fill="var(--muted)" font-weight="500" text-anchor="middle">Preview</text></g></svg>

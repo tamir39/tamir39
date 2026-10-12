@@ -32,4 +32,15 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,san
 }
 `;
 
-module.exports = { themes, motion };
+// Embedded SVG media queries inherit the image element's used color scheme.
+// Keep theme selection inside the art, rather than relying on README URL flags.
+function adaptiveSvg(art) {
+  const tokens = Object.entries(themes.light).flatMap(([role, value]) =>
+    Array.isArray(value) ? value.map((color, i) => [`level-${i}`, color, themes.dark[role][i]]) : [[role, value, themes.dark[role]]]);
+  for (const [role, light] of tokens) art = art.replaceAll(light, `var(--${role})`);
+  const variables = index => tokens.map(([role, ...colors]) => `--${role}:${colors[index]}`).join(';');
+  const css = `:root{${variables(0)}}@media(prefers-color-scheme:dark){:root{${variables(1)}}}`;
+  return art.replace('<style>', `<style>${css}`);
+}
+
+module.exports = { themes, motion, adaptiveSvg };

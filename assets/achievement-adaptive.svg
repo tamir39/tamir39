@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="128" viewBox="0 0 1000 128" role="img" aria-labelledby="title"><title id="title">Team Twohearts — F&amp;B Track winner at Agentic AI Build Week 2026.</title><style>:root{--paper:#ffffff;--ink:#1f2328;--muted:#59636e;--accent:#0969da;--line:#d1d9e0;--surface:#f6f8fa;--green:#1a7f37;--accentSurface:#ddf4ff;--level-0:#ebedf0;--level-1:#9be9a8;--level-2:#40c463;--level-3:#30a14e;--level-4:#216e39}@media(prefers-color-scheme:dark){:root{--paper:#0d1117;--ink:#f0f6fc;--muted:#9198a1;--accent:#4493f8;--line:#3d444d;--surface:#151b23;--green:#3fb950;--accentSurface:#121d2f;--level-0:#161b22;--level-1:#0e4429;--level-2:#006d32;--level-3:#26a641;--level-4:#39d353}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.trace{opacity:0}
+@media(prefers-reduced-motion:no-preference){
+  .bar,.draw{animation:highlight 5s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  .pulse{animation:highlight 3.2s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  .trace{opacity:1;stroke-dasharray:.12 .88;animation:trace 7s linear infinite;animation-delay:var(--delay,0ms)}
+  .orbit{transform-origin:var(--center);animation:orbit 12s linear infinite}
+  .float{transform-box:fill-box;transform-origin:center;animation:float 6s ease-in-out infinite}
+  .cell{animation:highlight 5.6s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  @keyframes highlight{0%,100%{opacity:1}50%{opacity:.65}}
+  @keyframes trace{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+  @keyframes orbit{to{transform:rotate(360deg)}}
+  @keyframes float{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-2px) rotate(2deg)}}
+}
+</style><rect x=".5" y=".5" width="999" height="127" rx="10" fill="var(--paper)" stroke="var(--line)"/><rect x="24" y="24" width="70" height="80" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+    <g class="float"><path class="draw" pathLength="1" d="M46 44H72V58Q72 76 59 76Q46 76 46 58ZM46 49H39V56Q39 64 47 64M72 49H79V56Q79 64 71 64M59 77V88M49 88H69" fill="none" stroke="var(--green)" stroke-width="2.5" stroke-linejoin="round"/></g><text x="119" y="43" font-size="12" fill="var(--green)" font-weight="600" class="mono">TEAM ACHIEVEMENT / 2026</text><text x="117" y="80" font-size="29" fill="var(--ink)" font-weight="600" >F&amp;B Track winner</text><text x="119" y="107" font-size="14" fill="var(--muted)" font-weight="400" >Agentic AI Build Week · GenAI Fund · Sponsored by KFC Vietnam</text></svg>

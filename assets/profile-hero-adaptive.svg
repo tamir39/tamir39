@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="365" viewBox="0 0 1200 365" role="img" aria-labelledby="title"><title id="title">Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer.</title><style>:root{--paper:#ffffff;--ink:#1f2328;--muted:#59636e;--accent:#0969da;--line:#d1d9e0;--surface:#f6f8fa;--green:#1a7f37;--accentSurface:#ddf4ff;--level-0:#ebedf0;--level-1:#9be9a8;--level-2:#40c463;--level-3:#30a14e;--level-4:#216e39}@media(prefers-color-scheme:dark){:root{--paper:#0d1117;--ink:#f0f6fc;--muted:#9198a1;--accent:#4493f8;--line:#3d444d;--surface:#151b23;--green:#3fb950;--accentSurface:#121d2f;--level-0:#161b22;--level-1:#0e4429;--level-2:#006d32;--level-3:#26a641;--level-4:#39d353}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.trace{opacity:0}
+@media(prefers-reduced-motion:no-preference){
+  .bar,.draw{animation:highlight 5s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  .pulse{animation:highlight 3.2s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  .trace{opacity:1;stroke-dasharray:.12 .88;animation:trace 7s linear infinite;animation-delay:var(--delay,0ms)}
+  .orbit{transform-origin:var(--center);animation:orbit 12s linear infinite}
+  .float{transform-box:fill-box;transform-origin:center;animation:float 6s ease-in-out infinite}
+  .cell{animation:highlight 5.6s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  @keyframes highlight{0%,100%{opacity:1}50%{opacity:.65}}
+  @keyframes trace{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+  @keyframes orbit{to{transform:rotate(360deg)}}
+  @keyframes float{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-2px) rotate(2deg)}}
+}
+</style><rect x=".5" y=".5" width="1199" height="364" rx="10" fill="var(--paper)" stroke="var(--line)"/><path d="M1 43H1199" stroke="var(--line)"/><text x="28" y="28" font-size="13" fill="var(--muted)" font-weight="400" class="mono">tamir39 / README.md</text><circle class="pulse" cx="1116" cy="23" r="4" fill="var(--green)"/><text x="1127" y="28" font-size="12" fill="var(--muted)" font-weight="400" >building</text><text x="36" y="145" font-size="82" fill="var(--ink)" font-weight="700" >Tamir</text><text x="39" y="184" font-size="21" fill="var(--muted)" font-weight="400" >Phí Vương Tường Tâm</text><text x="39" y="237" font-size="29" fill="var(--accent)" font-weight="600" >Frontend developer &amp; UI/UX designer</text><text x="39" y="275" font-size="19" fill="var(--muted)" font-weight="400" >Visual detail. Clear interactions. Complete flows.</text><text x="39" y="330" font-size="13" fill="var(--muted)" font-weight="400" >TWOHEARTS TECHNOLOGY · TON DUC THANG UNIVERSITY</text><g transform="translate(820 69)">
+      <rect width="342" height="266" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="18" y="29" font-size="12" fill="var(--muted)" font-weight="400" class="mono">interface.tsx</text>
+      <path d="M0 44H342" stroke="var(--line)"/>
+      <g class="reveal" style="--delay:100ms">
+        <text x="18" y="72" font-size="13" fill="var(--accent)" font-weight="500" class="mono">design → build → refine</text>
+        <rect x="18" y="87" width="306" height="109" rx="6" fill="var(--paper)" stroke="var(--line)"/>
+        <rect x="32" y="102" width="43" height="80" rx="4" fill="var(--surface)"/>
+        <path class="draw" pathLength="1" d="M41 118H65M41 132H60M41 146H65" stroke="var(--muted)" stroke-width="3" style="--delay:250ms"/>
+        <rect class="bar" x="89" y="103" width="218" height="12" rx="3" fill="var(--accentSurface)" style="--delay:250ms"/>
+        <rect class="bar" x="89" y="124" width="146" height="7" rx="3" fill="var(--line)" style="--delay:350ms"/>
+        <path class="draw" pathLength="1" d="M94 166L125 155L158 164L197 143L236 155L275 139L300 147" fill="none" stroke="var(--green)" stroke-width="2.5" stroke-linejoin="round" style="--delay:450ms"/><path class="trace" pathLength="1" d="M94 166L125 155L158 164L197 143L236 155L275 139L300 147" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <g class="reveal" style="--delay:400ms"><path d="M21 225L26 230L35 219" fill="none" stroke="var(--green)" stroke-width="2"/><text x="45" y="230" font-size="13" fill="var(--muted)" font-weight="400" >Thoughtful by design.</text></g>
+    </g></svg>

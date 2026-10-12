@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import theme from './profile-theme.cjs';
-const { themes, motion } = theme;
+const { themes, motion, adaptiveSvg } = theme;
 const user = 'tamir39';
 const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Bangkok' });
 
@@ -181,6 +181,8 @@ const outputs = {
   'github-dashboard': render(themes.light),
   'github-dashboard-dark': render(themes.dark),
   'github-dashboard-static': render(themes.light, false),
+  'github-dashboard-adaptive': adaptiveSvg(render(themes.light)),
+  'github-dashboard-static-adaptive': adaptiveSvg(render(themes.light, false)),
 };
 for (const [name, art] of Object.entries(outputs)) fs.writeFileSync(`assets/${name}.svg`, art);
 console.log(`Rendered GitHub calendar: ${totalContributions} contributions; monthly and weekday totals match; ${sorted.length} languages; ${originalCount} originals / ${forkCount} forks.`);

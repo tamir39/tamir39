@@ -1,13 +1,10 @@
 <a name="top"></a>
 
-<!-- Theme-specific image links follow GitHub appearance settings, including manual light/dark choices. -->
+<!-- Each SVG adapts to the embedding page color scheme; no OS-only source selection or GitHub theme URL flags. -->
 
 <p align="center">
-  <a href="https://tamir39.com/#gh-light-mode-only">
-    <img src="./assets/profile-hero.svg#gh-light-mode-only" width="100%" alt="Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer. Explore my portfolio." />
-  </a>
-  <a href="https://tamir39.com/#gh-dark-mode-only">
-    <img src="./assets/profile-hero-dark.svg#gh-dark-mode-only" width="100%" alt="Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer. Explore my portfolio." />
+  <a href="https://tamir39.com/">
+    <img src="./assets/profile-hero-adaptive.svg" width="100%" alt="Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer. Explore my portfolio." />
   </a>
 </p>
 
@@ -22,11 +19,8 @@
 ## A little about me
 
 <p>
-  <a href="./assets/about-card.svg#gh-light-mode-only">
-    <img src="./assets/about-card.svg#gh-light-mode-only" width="100%" alt="Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer at Twohearts Technology; computer science student at Ton Duc Thang University. I connect visual craft, thoughtful user flows and application logic, and explore UI/UX and full-stack development through Zuno." />
-  </a>
-  <a href="./assets/about-card-dark.svg#gh-dark-mode-only">
-    <img src="./assets/about-card-dark.svg#gh-dark-mode-only" width="100%" alt="Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer at Twohearts Technology; computer science student at Ton Duc Thang University. I connect visual craft, thoughtful user flows and application logic, and explore UI/UX and full-stack development through Zuno." />
+  <a href="./assets/about-card-adaptive.svg">
+    <img src="./assets/about-card-adaptive.svg" width="100%" alt="Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer at Twohearts Technology; computer science student at Ton Duc Thang University. I connect visual craft, thoughtful user flows and application logic, and explore UI/UX and full-stack development through Zuno." />
   </a>
 </p>
 
@@ -38,11 +32,8 @@
 
 Dashboard and storefront work spanning UI/UX design, visual refinement, user flows, and frontend integration.
 
-<a href="https://www.linkedin.com/posts/genai-fund_aabw2026-aabwxgaf-activity-7482359686189445120-FEhQ#gh-light-mode-only">
-  <img src="./assets/achievement.svg#gh-light-mode-only" width="100%" alt="Team achievement: F&B Track winner at Agentic AI Build Week 2026. Twohearts, organized by GenAI Fund and sponsored by KFC Vietnam. View announcement." />
-</a>
-<a href="https://www.linkedin.com/posts/genai-fund_aabw2026-aabwxgaf-activity-7482359686189445120-FEhQ#gh-dark-mode-only">
-  <img src="./assets/achievement-dark.svg#gh-dark-mode-only" width="100%" alt="Team achievement: F&B Track winner at Agentic AI Build Week 2026. Twohearts, organized by GenAI Fund and sponsored by KFC Vietnam. View announcement." />
+<a href="https://www.linkedin.com/posts/genai-fund_aabw2026-aabwxgaf-activity-7482359686189445120-FEhQ">
+  <img src="./assets/achievement-adaptive.svg" width="100%" alt="Team achievement: F&B Track winner at Agentic AI Build Week 2026. Twohearts, organized by GenAI Fund and sponsored by KFC Vietnam. View announcement." />
 </a>
 
 <sub>Part of the winning Twohearts team. <a href="https://www.linkedin.com/posts/genai-fund_aabw2026-aabwxgaf-activity-7482359686189445120-FEhQ">Organizer's announcement ↗</a></sub>
@@ -52,11 +43,8 @@ Dashboard and storefront work spanning UI/UX design, visual refinement, user flo
 ### Zuno
 
 <p>
-  <a href="https://zuno.page/#gh-light-mode-only">
-    <img src="./assets/zuno-card.svg#gh-light-mode-only" width="100%" alt="Zuno — Private spaces. Shared moments. Explore my application." />
-  </a>
-  <a href="https://zuno.page/#gh-dark-mode-only">
-    <img src="./assets/zuno-card-dark.svg#gh-dark-mode-only" width="100%" alt="Zuno — Private spaces. Shared moments. Explore my application." />
+  <a href="https://zuno.page/">
+    <img src="./assets/zuno-card-adaptive.svg" width="100%" alt="Zuno — Private spaces. Shared moments. Explore my application." />
   </a>
 </p>
 
@@ -69,11 +57,8 @@ It's where I explore the entire product flow—from joining a Zone to sharing an
 ### Interface Atlas
 
 <p>
-  <a href="https://github.com/tamir39/interface-atlas#gh-light-mode-only">
-    <img src="./assets/interface-atlas-card.svg#gh-light-mode-only" width="100%" alt="Interface Atlas — my frontend UI/UX knowledge library. From visual references to project design specifications and reference previews. Explore the repository." />
-  </a>
-  <a href="https://github.com/tamir39/interface-atlas#gh-dark-mode-only">
-    <img src="./assets/interface-atlas-card-dark.svg#gh-dark-mode-only" width="100%" alt="Interface Atlas — my frontend UI/UX knowledge library. From visual references to project design specifications and reference previews. Explore the repository." />
+  <a href="https://github.com/tamir39/interface-atlas">
+    <img src="./assets/interface-atlas-card-adaptive.svg" width="100%" alt="Interface Atlas — my frontend UI/UX knowledge library. From visual references to project design specifications and reference previews. Explore the repository." />
   </a>
 </p>
 
@@ -84,11 +69,8 @@ It reflects how I connect design and engineering: making visual decisions explic
 ## Tools behind the work
 
 <p>
-  <a href="./assets/tools-card.svg#gh-light-mode-only">
-    <img src="./assets/tools-card.svg#gh-light-mode-only" width="100%" alt="Core frontend: React, TypeScript, Tailwind CSS, Next.js, Vite. Components and motion: shadcn/ui, Radix UI, Motion / Framer Motion. State and data: Zustand, TanStack Query. Growing full-stack experience through Zuno: PostgreSQL and Drizzle ORM." />
-  </a>
-  <a href="./assets/tools-card-dark.svg#gh-dark-mode-only">
-    <img src="./assets/tools-card-dark.svg#gh-dark-mode-only" width="100%" alt="Core frontend: React, TypeScript, Tailwind CSS, Next.js, Vite. Components and motion: shadcn/ui, Radix UI, Motion / Framer Motion. State and data: Zustand, TanStack Query. Growing full-stack experience through Zuno: PostgreSQL and Drizzle ORM." />
+  <a href="./assets/tools-card-adaptive.svg">
+    <img src="./assets/tools-card-adaptive.svg" width="100%" alt="Core frontend: React, TypeScript, Tailwind CSS, Next.js, Vite. Components and motion: shadcn/ui, Radix UI, Motion / Framer Motion. State and data: Zustand, TanStack Query. Growing full-stack experience through Zuno: PostgreSQL and Drizzle ORM." />
   </a>
 </p>
 
@@ -106,12 +88,9 @@ It reflects how I connect design and engineering: making visual decisions explic
 ## GitHub activity
 
 <p>
-  <a href="./assets/github-dashboard.svg#gh-light-mode-only">
-    <img src="./assets/github-dashboard.svg#gh-light-mode-only" width="100%" alt="GitHub contribution dashboard: total contributions, commit contributions, pull requests and active days; official contribution heatmap, monthly area chart, language donut, weekday histogram and public repository split." />
-  </a>
-  <a href="./assets/github-dashboard-dark.svg#gh-dark-mode-only">
-    <img src="./assets/github-dashboard-dark.svg#gh-dark-mode-only" width="100%" alt="GitHub contribution dashboard: total contributions, commit contributions, pull requests and active days; official contribution heatmap, monthly area chart, language donut, weekday histogram and public repository split." />
+  <a href="./assets/github-dashboard-adaptive.svg">
+    <img src="./assets/github-dashboard-adaptive.svg" width="100%" alt="GitHub contribution dashboard: total contributions, commit contributions, pull requests and active days; official contribution heatmap, monthly area chart, language donut, weekday histogram and public repository split." />
   </a>
 </p>
 
-<sub>Dated snapshot of GitHub’s contribution calendar, including aggregate private activity counts. Languages and repository split use public repositories. Motion respects your reduced-motion preference. <a href="https://raw.githubusercontent.com/tamir39/tamir39/main/assets/github-dashboard-static.svg">Still view ↗</a></sub>
+<sub>Dated snapshot of GitHub’s contribution calendar, including aggregate private activity counts. Languages and repository split use public repositories. Motion respects your reduced-motion preference. <a href="https://raw.githubusercontent.com/tamir39/tamir39/main/assets/github-dashboard-static-adaptive.svg">Still view ↗</a></sub>

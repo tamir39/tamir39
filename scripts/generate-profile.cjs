@@ -1,5 +1,5 @@
 const fs = require('node:fs');
-const { themes, motion } = require('./profile-theme.cjs');
+const { themes, motion, adaptiveSvg } = require('./profile-theme.cjs');
 
 for (const [theme, c] of Object.entries(themes)) {
   const t = (x,y,s,v,color=c.ink,w=400,extra='') => `<text x="${x}" y="${y}" font-size="${s}" fill="${color}" font-weight="${w}" ${extra}>${v}</text>`;
@@ -93,5 +93,6 @@ for (const [theme, c] of Object.entries(themes)) {
 
   for (const [name,art] of Object.entries({'profile-hero':hero,achievement:award,'zuno-card':zuno,'interface-atlas-card':atlas,'about-card':about,'tools-card':tools})) {
     fs.writeFileSync(`assets/${name}${theme==='dark'?'-dark':''}.svg`,art);
+    if (theme === 'light') fs.writeFileSync(`assets/${name}-adaptive.svg`, adaptiveSvg(art));
   }
 }
