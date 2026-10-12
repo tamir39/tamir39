@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://tamir39.com/">
-    <img src="./assets/profile-hero.svg" width="100%" alt="Tamir — Good ideas. Great reactions. Frontend developer and UI/UX designer, Phí Vương Tường Tâm. Explore my portfolio." />
+    <img src="./assets/profile-hero.svg" width="100%" alt="Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer. Explore my portfolio." />
   </a>
 </p>
 
@@ -22,21 +22,27 @@ I bring visual design and application logic together: clear layouts, thoughtful 
 
 **Currently exploring →** Deeper UI/UX practice and full stack development through my own product, Zuno.
 
-| Visual craft | Thoughtful flows | Connected experiences |
-| --- | --- | --- |
-| Layout, spacing, typography, and consistent details. | Clear navigation, useful feedback, and understandable next steps. | Interfaces connected to application logic. |
+**My focus:** visual craft, thoughtful user flows, and interfaces connected to application logic.
 
-## GitHub, at a glance
+## GitHub activity
 
 <p>
-  <img src="./assets/github-stats.svg" width="100%" alt="GitHub statistics for tamir39: public repositories, public commits and pull requests in the past year, and stars. See card for values and update date." />
+  <img src="./assets/github-stats.svg" width="100%" alt="GitHub statistics: public repositories, public commits, public pull requests, and active commit days. Activity covers the past year." />
 </p>
 
 <p>
-  <img src="./assets/github-languages.svg" width="100%" alt="Primary language distribution across original public repositories with a detected language. See card for counts." />
+  <img src="./assets/github-activity.svg" width="100%" alt="A year of building: daily public commit heatmap, with purple intensity indicating the number of indexed commits on each day." />
 </p>
 
-<sub>Public GitHub snapshot; update date shown on each card. Private work is excluded; commit and pull request counts cover the past year. Languages are counted by repository, not by lines of code.</sub>
+<p>
+  <img src="./assets/github-trend.svg" width="100%" alt="Monthly public commit line chart. Each point is labeled with its monthly total. First and current months are partial." />
+</p>
+
+<p>
+  <img src="./assets/github-languages.svg" width="100%" alt="Language donut chart showing original public repository counts and percentages by primary language." />
+</p>
+
+<sub>Dated snapshot of public GitHub data. The calendar and trend show indexed public commits, rather than all contribution types; private work is excluded. Languages are counted by original repository, not by lines of code.</sub>
 
 ## Work & recognition
 
