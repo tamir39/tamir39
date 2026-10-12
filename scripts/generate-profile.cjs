@@ -43,6 +43,21 @@ for (const [theme, c] of Object.entries(themes)) {
     `<g transform="translate(708 24)"><rect width="264" height="118" rx="8" fill="${c.surface}" stroke="${c.line}"/><path d="M30 24V95" stroke="${c.line}"/>` +
     [0,1,2].map(i => `<g class="reveal" style="--delay:${i*160}ms"><circle class="pulse" style="--delay:${i*600}ms" cx="30" cy="${28+i*32}" r="5" fill="${i===1?c.green:c.accent}"/><path class="draw" pathLength="1" d="M50 ${28+i*32}H${i===1?204:234}" stroke="${c.muted}" stroke-width="4" style="--delay:${i*160}ms"/></g>`).join('') + '</g>');
 
+  const atlas = svg(1000,167,'Interface Atlas — a frontend UI/UX knowledge library by Tamir. Visual references, design specifications, and reference previews.',
+    t(28,32,12,'UI/UX KNOWLEDGE LIBRARY / PERSONAL PROJECT',c.accent,600,'class="mono"') +
+    t(26,78,37,'Interface Atlas',c.ink,600) +
+    t(28,111,20,'From visual references to design decisions.',c.ink) +
+    t(28,143,14,'Design tokens · Motion · Accessibility · Source credits',c.muted) +
+    `<g transform="translate(640 24)"><rect width="332" height="118" rx="8" fill="${c.surface}" stroke="${c.line}"/>
+      <path d="M49 49H281" stroke="${c.line}" stroke-width="2"/>
+      <path class="trace" pathLength="1" d="M49 49H281" stroke="${c.accent}" stroke-width="2.5" stroke-linecap="round"/>` +
+    ['Theme','Design','Preview'].map((label,i) => {
+      const x=49+i*116;
+      return `<rect x="${x-20}" y="27" width="40" height="44" rx="5" fill="${c.paper}" stroke="${c.line}"/>
+        <path class="draw" style="--delay:-${i*900}ms" d="M${x-9} 40H${x+9}M${x-9} 49H${x+9}M${x-9} 58H${x+3}" stroke="${i===2?c.green:c.accent}" stroke-width="2" stroke-linecap="round"/>` +
+        t(x,97,13,label,c.muted,500,'text-anchor="middle"');
+    }).join('') + '</g>');
+
   const focus = [
     {x:24,title:'Visual craft',lines:['Layout, type, color, and the','details that make a UI feel right.'],icon:'M0 0H26V24H0ZM0 7H26M8 7V24'},
     {x:346,title:'Thoughtful flows',lines:['Clear navigation and interactions,','from first click to final step.'],icon:'M0 12H8M18 12H26M10 2H17V9H10ZM10 16H17V23H10ZM14 9V16'},
@@ -76,7 +91,7 @@ for (const [theme, c] of Object.entries(themes)) {
     toolPanel(512,177,'Growing full stack','04') + chip(530,224,121,'PostgreSQL') + chip(659,224,128,'Drizzle ORM') +
     '<circle class="pulse" cx="535" cy="284" r="4" fill="'+c.green+'"/>'+t(549,289,13,'Learning through Zuno',c.muted) + toolTrace(746,284,207,3000));
 
-  for (const [name,art] of Object.entries({'profile-hero':hero,achievement:award,'zuno-card':zuno,'about-card':about,'tools-card':tools})) {
+  for (const [name,art] of Object.entries({'profile-hero':hero,achievement:award,'zuno-card':zuno,'interface-atlas-card':atlas,'about-card':about,'tools-card':tools})) {
     fs.writeFileSync(`assets/${name}${theme==='dark'?'-dark':''}.svg`,art);
   }
 }

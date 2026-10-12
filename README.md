@@ -43,7 +43,9 @@ Dashboard and storefront work spanning UI/UX design, visual refinement, user flo
 
 <sub>Part of the winning Twohearts team. <a href="https://www.linkedin.com/posts/genai-fund_aabw2026-aabwxgaf-activity-7482359686189445120-FEhQ">Organizer's announcement ↗</a></sub>
 
-## Something of my own
+## My own projects
+
+### Zuno
 
 <p>
   <a href="https://zuno.page/">
@@ -59,6 +61,21 @@ Dashboard and storefront work spanning UI/UX design, visual refinement, user flo
 It's where I explore the entire product flow—from joining a Zone to sharing and interacting with its timeline—and build experience beyond the frontend.
 
 **Built with:** Next.js · React · TypeScript · Tailwind CSS · Zustand · PostgreSQL · Drizzle ORM
+
+### Interface Atlas
+
+<p>
+  <a href="https://github.com/tamir39/interface-atlas">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/interface-atlas-card-dark.svg" />
+      <img src="./assets/interface-atlas-card.svg" width="100%" alt="Interface Atlas — my frontend UI/UX knowledge library. From visual references to project design specifications and reference previews. Explore the repository." />
+    </picture>
+  </a>
+</p>
+
+**[Interface Atlas](https://github.com/tamir39/interface-atlas)** is my frontend UI/UX knowledge library. I’m building it to turn visual references into reusable design rules and self-contained project specifications—covering design tokens, typography, component states, motion, accessibility, and source credits.
+
+It reflects how I connect design and engineering: making visual decisions explicit, adapting them to a product’s needs, and checking them in the browser. Its first theme, **Editorial**, is a draft with a light/dark reference preview and documented browser checks.
 
 ## Tools behind the work
 
