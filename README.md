@@ -2,121 +2,49 @@
 
 <p align="center">
   <a href="https://tamir39.com/">
-    <img src="./assets/profile-hero.svg" width="100%" alt="Tamir — Interface Arcade. Frontend developer and UI/UX designer. Phí Vương Tường Tâm. Explore my portfolio." />
+    <img src="./assets/profile-hero.svg" width="100%" alt="Tamir — Good ideas. Great reactions. Frontend developer and UI/UX designer, Phí Vương Tường Tâm. Explore my portfolio." />
   </a>
 </p>
 
 <p align="center">
-  <a href="#arcade">Play</a> &nbsp; · &nbsp;
   <a href="https://tamir39.com/"><strong>Explore my portfolio ↗</strong></a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/tam-phi-vuong-tuong-686919388/">Connect on LinkedIn ↗</a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://zuno.page/">Try Zuno ↗</a>
+  &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/tam-phi-vuong-tuong-686919388/">LinkedIn ↗</a>
+  &nbsp; · &nbsp;
+  <a href="https://zuno.page/">Zuno ↗</a>
 </p>
 
-<p align="center">
-  <a href="#about">About me</a> &nbsp; · &nbsp;
-  <a href="#work">Work &amp; recognition</a> &nbsp; · &nbsp;
-  <a href="#zuno">Zuno</a> &nbsp; · &nbsp;
-  <a href="#toolkit">Toolkit</a> &nbsp; · &nbsp;
-  <a href="#contact">Contact</a>
-</p>
+## A little about me
 
-<br />
+I'm **Tamir — Phí Vương Tường Tâm**, a frontend developer and UI/UX designer at **Twohearts Technology**, and a computer science student at **Ton Duc Thang University**.
 
-<a name="arcade"></a>
-
-## Player 02 / Your turn
-
-<a href="https://tamir39.github.io/tamir39/">
-  <img src="./assets/arcade.svg" width="100%" alt="Play Interface Arcade: Spot the UI fix. Five rounds with scoring and replay. Open the browser game." />
-</a>
-
-**[Play Interface Arcade ↗](https://tamir39.github.io/tamir39/)** — a small game I made for this profile. Choose the interface that fits the situation, find out why, and try for **5 / 5**. No timer.
-
-<details>
-<summary><strong>Stay here? Play a quick choose-and-reveal round.</strong></summary>
-
-**The mission:** A new Zuno Zone is empty. What would you show first? Open your choice to reveal the outcome.
-
-<details>
-<summary>A / “No data. 0 records found.”</summary>
-
-**Outcome: the next step is still a mystery.** The message describes the database state, but gives the person no reason or way to begin. Try another approach.
-
-</details>
-
-<details>
-<summary>B / “Your Zone starts here.” + “Create your first post”</summary>
-
-**Outcome: first-post path unlocked.** A little context and one relevant action turn an empty screen into an invitation. That's the kind of detail I enjoy building.
-
-**Reward:** 🐾 The cat approves your design instinct.
-
-</details>
-
-<details>
-<summary>C / Fill the screen with sample posts</summary>
-
-**Outcome: a lively screen, with a possible trust problem.** Clearly labeled examples can teach; unlabeled content can make people wonder who posted it. Make the distinction visible and keep the real first action available.
-
-</details>
-
-Close your choice to reset this round, or [play all five rounds with scoring ↗](https://tamir39.github.io/tamir39/).
-
-</details>
-
-<br />
-
-<a name="about"></a>
-
-## The builder / Behind the pixels
-
-I'm **Tamir — Phí Vương Tường Tâm**, a frontend developer and computer science student at **Ton Duc Thang University**. I work where visual design meets application logic: refining the details people see and the flows they move through.
-
-<table>
-<tr>
-<td width="33%" valign="top">
-<details>
-<summary><strong>Visual craft</strong></summary>
-<p>
-Layout, spacing, typography, and the small details that make an interface feel coherent.
-</p>
-</details>
-</td>
-<td width="33%" valign="top">
-<details>
-<summary><strong>Thoughtful flows</strong></summary>
-<p>
-Clear navigation and interactions that help people move through a task with confidence.
-</p>
-</details>
-</td>
-<td width="33%" valign="top">
-<details>
-<summary><strong>Connected experiences</strong></summary>
-<p>
-Frontend features that bring the interface and application logic together.
-</p>
-</details>
-</td>
-</tr>
-</table>
-
-<sub>Expand a focus area to read more.</sub>
+I bring visual design and application logic together: clear layouts, thoughtful interactions, and user flows that hold together from the first click to the final step. I enjoy exploring type, color, motion, and the details that make an interface feel as good as it works.
 
 **Currently exploring →** Deeper UI/UX practice and full stack development through my own product, Zuno.
 
-<br />
+| Visual craft | Thoughtful flows | Connected experiences |
+| --- | --- | --- |
+| Layout, spacing, typography, and consistent details. | Clear navigation, useful feedback, and understandable next steps. | Interfaces connected to application logic. |
 
-<a name="work"></a>
+## GitHub, at a glance
 
-## Quest log / Work & recognition
+<p>
+  <img src="./assets/github-stats.svg" width="100%" alt="GitHub statistics for tamir39: public repositories, public commits and pull requests in the past year, and stars. See card for values and update date." />
+</p>
 
-### Twohearts · Frontend development & UI/UX design
+<p>
+  <img src="./assets/github-languages.svg" width="100%" alt="Primary language distribution across original public repositories with a detected language. See card for counts." />
+</p>
 
-**June 2026–present** · Dashboard and storefront work spanning visual refinement, user flows, and frontend integration.
+<sub>Public GitHub snapshot; update date shown on each card. Private work is excluded; commit and pull request counts cover the past year. Languages are counted by repository, not by lines of code.</sub>
+
+## Work & recognition
+
+### Twohearts Technology
+
+**Frontend Developer & UI/UX Designer · June 2026–present**
+
+Dashboard and storefront work spanning UI/UX design, visual refinement, user flows, and frontend integration.
 
 <a href="https://www.linkedin.com/posts/genai-fund_aabw2026-aabwxgaf-activity-7482359686189445120-FEhQ">
   <img src="./assets/achievement.svg" width="100%" alt="Team achievement: F&B Track winner at Agentic AI Build Week 2026. Twohearts, organized by GenAI Fund and sponsored by KFC Vietnam. View announcement." />
@@ -124,64 +52,32 @@ Frontend features that bring the interface and application logic together.
 
 <sub>Part of the winning Twohearts team. <a href="https://www.linkedin.com/posts/genai-fund_aabw2026-aabwxgaf-activity-7482359686189445120-FEhQ">Organizer's announcement ↗</a></sub>
 
-<br /><br />
-
-<a name="zuno"></a>
-
-## Personal build / Zuno
+## Something of my own
 
 <a href="https://zuno.page/">
-  <img src="./assets/zuno-card.svg" width="100%" alt="Zuno — Private spaces. Shared moments. Full-stack PWA. Explore the application." />
+  <img src="./assets/zuno-card.svg" width="100%" alt="Zuno — Private spaces. Shared moments. Explore my application." />
 </a>
 
 **[Zuno](https://zuno.page/)** is my personal application: a private social timeline organized into shared spaces called **Zones**. Members share text and images, react to posts, and vote within their space.
 
 It's where I explore the entire product flow—from joining a Zone to sharing and interacting with its timeline—and build experience beyond the frontend.
 
-<details>
-<summary><strong>Explore the Zuno flow &amp; technology</strong></summary>
+**Built with:** Next.js · React · TypeScript · Tailwind CSS · Zustand · PostgreSQL · Drizzle ORM
 
-1. Create or join a private Zone through an invite.
-2. Share text and images in its timeline.
-3. React to posts and participate in votes with other members.
-
-<sub>Next.js · React · TypeScript · Tailwind CSS · Zustand · PostgreSQL · Drizzle ORM</sub>
-
-[Try Zuno ↗](https://zuno.page/)
-
-</details>
-
-<br /><br />
-
-<a name="toolkit"></a>
-
-## Inventory / Tools behind the work
-
-**React / TypeScript / Tailwind CSS / Next.js / Vite**
-
-<details>
-<summary><strong>See my toolkit by area</strong></summary>
+## Tools behind the work
 
 **Core frontend** &nbsp; React · TypeScript · Tailwind CSS · Next.js · Vite<br />
 **Components & motion** &nbsp; shadcn/ui · Radix UI · Motion / Framer Motion<br />
 **State & data** &nbsp; Zustand · TanStack Query<br />
 **Growing full stack experience** &nbsp; PostgreSQL · Drizzle ORM
 
-</details>
-
-<br />
-
 ---
 
-<a name="contact"></a>
-
 <p align="center"><strong>What could we create in your next product?</strong></p>
-<p align="center">Connect with me about frontend development, UI/UX, and thoughtful products.</p>
 <p align="center">
-  <a href="https://www.linkedin.com/in/tam-phi-vuong-tuong-686919388/">Let's connect on LinkedIn ↗</a>
+  <a href="https://tamir39.com/#contact">Let's connect ↗</a>
+  &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/tam-phi-vuong-tuong-686919388/">LinkedIn</a>
   &nbsp; · &nbsp; <strong>0938 419 071</strong>
 </p>
-<p align="center"><a href="https://tamir39.com/#contact">Tell me what you have in mind ↗</a></p>
-<p align="center"><sub>Tamir / Design + code + a little play.</sub></p>
-
-<p align="center"><a href="#top">Back to top ↑</a></p>
+<p align="center"><sub>Tamir / A little design, a little code, a little wonder.</sub></p>
