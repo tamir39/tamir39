@@ -19,13 +19,12 @@
 
 ## A little about me
 
-I'm **Tamir — Phí Vương Tường Tâm**, a frontend developer and UI/UX designer at **Twohearts Technology**, and a computer science student at **Ton Duc Thang University**.
-
-I bring visual design and application logic together: clear layouts, thoughtful interactions, and user flows that hold together from the first click to the final step. I enjoy exploring type, color, motion, and the details that make an interface feel as good as it works.
-
-**Currently exploring →** Deeper UI/UX practice and full stack development through my own product, Zuno.
-
-**My focus:** visual craft, thoughtful user flows, and interfaces connected to application logic.
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/about-card-dark.svg" />
+    <img src="./assets/about-card.svg" width="100%" alt="Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer at Twohearts Technology; computer science student at Ton Duc Thang University. I connect visual craft, thoughtful user flows and application logic, and explore UI/UX and full-stack development through Zuno." />
+  </picture>
+</p>
 
 ## Work & recognition
 
@@ -46,12 +45,14 @@ Dashboard and storefront work spanning UI/UX design, visual refinement, user flo
 
 ## Something of my own
 
-<a href="https://zuno.page/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/zuno-card-dark.svg" />
-    <img src="./assets/zuno-card.svg" width="100%" alt="Zuno — Private spaces. Shared moments. Explore my application." />
-  </picture>
-</a>
+<p>
+  <a href="https://zuno.page/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/zuno-card-dark.svg" />
+      <img src="./assets/zuno-card.svg" width="100%" alt="Zuno — Private spaces. Shared moments. Explore my application." />
+    </picture>
+  </a>
+</p>
 
 **[Zuno](https://zuno.page/)** is my personal application: a private social timeline organized into shared spaces called **Zones**. Members share text and images, react to posts, and vote within their space.
 
@@ -61,10 +62,12 @@ It's where I explore the entire product flow—from joining a Zone to sharing an
 
 ## Tools behind the work
 
-**Core frontend** &nbsp; React · TypeScript · Tailwind CSS · Next.js · Vite<br />
-**Components & motion** &nbsp; shadcn/ui · Radix UI · Motion / Framer Motion<br />
-**State & data** &nbsp; Zustand · TanStack Query<br />
-**Growing full stack experience** &nbsp; PostgreSQL · Drizzle ORM
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/tools-card-dark.svg" />
+    <img src="./assets/tools-card.svg" width="100%" alt="Core frontend: React, TypeScript, Tailwind CSS, Next.js, Vite. Components and motion: shadcn/ui, Radix UI, Motion / Framer Motion. State and data: Zustand, TanStack Query. Growing full-stack experience through Zuno: PostgreSQL and Drizzle ORM." />
+  </picture>
+</p>
 
 ---
 
@@ -82,8 +85,8 @@ It's where I explore the entire product flow—from joining a Zone to sharing an
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/github-dashboard-dark.svg" />
-    <img src="./assets/github-dashboard.svg" width="100%" alt="Public GitHub dashboard: repository, commit and PR totals; daily heatmap, monthly area chart, language donut, weekday histogram and repository split. Data covers the past year." />
+    <img src="./assets/github-dashboard.svg" width="100%" alt="GitHub contribution dashboard: total contributions, commit contributions, pull requests and active days; official contribution heatmap, monthly area chart, language donut, weekday histogram and public repository split." />
   </picture>
 </p>
 
-<sub>Dated public snapshot; private work excluded. The calendar and charts count indexed public commits, and languages are counted by original repository. Motion respects your reduced-motion preference. <a href="https://raw.githubusercontent.com/tamir39/tamir39/main/assets/github-dashboard-static.svg">Still view ↗</a></sub>
+<sub>Dated snapshot of GitHub’s contribution calendar, including aggregate private activity counts. Languages and repository split use public repositories. Motion respects your reduced-motion preference. <a href="https://raw.githubusercontent.com/tamir39/tamir39/main/assets/github-dashboard-static.svg">Still view ↗</a></sub>
