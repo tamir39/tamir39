@@ -12,21 +12,24 @@ const themes = {
   },
 };
 
-// Short sequences: SVG images cannot offer a pause control. Static base
-// styles stay visible, and reduced-motion users get the completed artwork.
+// User-requested ambient loops: data geometry and labels stay fixed.
+// Reduced-motion users get the complete, stationary artwork.
 const motion = `
 text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
 .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
-.reveal,.bar,.pulse,.draw{opacity:1}
+.trace{opacity:0}
 @media(prefers-reduced-motion:no-preference){
-  .reveal{animation:reveal 650ms cubic-bezier(.2,0,0,1) both;animation-delay:var(--delay,0ms)}
-  .bar{transform-box:fill-box;transform-origin:left center;animation:bar 900ms cubic-bezier(.2,0,0,1) both;animation-delay:var(--delay,0ms)}
-  .draw{stroke-dasharray:1;stroke-dashoffset:0;animation:draw 2100ms cubic-bezier(.2,0,0,1) both;animation-delay:var(--delay,0ms)}
-  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 1100ms ease-in-out 3}
-  @keyframes reveal{from{opacity:.2;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
-  @keyframes bar{from{transform:scaleX(.15);opacity:.35}to{transform:scaleX(1);opacity:1}}
-  @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
-  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
-}`;
+  .bar,.draw{animation:highlight 5s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  .pulse{animation:highlight 3.2s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  .trace{opacity:1;stroke-dasharray:.12 .88;animation:trace 7s linear infinite;animation-delay:var(--delay,0ms)}
+  .orbit{transform-origin:var(--center);animation:orbit 12s linear infinite}
+  .float{transform-box:fill-box;transform-origin:center;animation:float 6s ease-in-out infinite}
+  .cell{animation:highlight 5.6s ease-in-out infinite;animation-delay:var(--delay,0ms)}
+  @keyframes highlight{0%,100%{opacity:1}50%{opacity:.65}}
+  @keyframes trace{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+  @keyframes orbit{to{transform:rotate(360deg)}}
+  @keyframes float{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-2px) rotate(2deg)}}
+}
+`;
 
 module.exports = { themes, motion };

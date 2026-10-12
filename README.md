@@ -27,38 +27,6 @@ I bring visual design and application logic together: clear layouts, thoughtful 
 
 **My focus:** visual craft, thoughtful user flows, and interfaces connected to application logic.
 
-## GitHub activity
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg" />
-    <img src="./assets/github-stats.svg" width="100%" alt="GitHub statistics: public repositories, public commits, public pull requests, and active commit days. Activity covers the past year." />
-  </picture>
-</p>
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-activity-dark.svg" />
-    <img src="./assets/github-activity.svg" width="100%" alt="A year of building: daily public commit heatmap, with green intensity indicating the number of indexed commits on each day." />
-  </picture>
-</p>
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-trend-dark.svg" />
-    <img src="./assets/github-trend.svg" width="100%" alt="Monthly public commit line chart. Each point is labeled with its monthly total. First and current months are partial." />
-  </picture>
-</p>
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-languages-dark.svg" />
-    <img src="./assets/github-languages.svg" width="100%" alt="Language donut chart showing original public repository counts and percentages by primary language." />
-  </picture>
-</p>
-
-<sub>Dated snapshot of public GitHub data. The calendar and trend show indexed public commits, rather than all contribution types; private work is excluded. Languages are counted by original repository, not by lines of code.</sub>
-
 ## Work & recognition
 
 ### Twohearts Technology
@@ -108,3 +76,14 @@ It's where I explore the entire product flow—from joining a Zone to sharing an
   &nbsp; · &nbsp; <strong>0938 419 071</strong>
 </p>
 <p align="center"><sub>Tamir / A little design, a little code, a little wonder.</sub></p>
+
+## GitHub activity
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-dashboard-dark.svg" />
+    <img src="./assets/github-dashboard.svg" width="100%" alt="Public GitHub dashboard: repository, commit and PR totals; daily heatmap, monthly area chart, language donut, weekday histogram and repository split. Data covers the past year." />
+  </picture>
+</p>
+
+<sub>Dated public snapshot; private work excluded. The calendar and charts count indexed public commits, and languages are counted by original repository. Motion respects your reduced-motion preference. <a href="https://raw.githubusercontent.com/tamir39/tamir39/main/assets/github-dashboard-static.svg">Still view ↗</a></sub>
