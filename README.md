@@ -2,7 +2,10 @@
 
 <p align="center">
   <a href="https://tamir39.com/">
-    <img src="./assets/profile-hero.svg" width="100%" alt="Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer. Explore my portfolio." />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
+      <img src="./assets/profile-hero.svg" width="100%" alt="Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer. Explore my portfolio." />
+    </picture>
   </a>
 </p>
 
@@ -27,19 +30,31 @@ I bring visual design and application logic together: clear layouts, thoughtful 
 ## GitHub activity
 
 <p>
-  <img src="./assets/github-stats.svg" width="100%" alt="GitHub statistics: public repositories, public commits, public pull requests, and active commit days. Activity covers the past year." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg" />
+    <img src="./assets/github-stats.svg" width="100%" alt="GitHub statistics: public repositories, public commits, public pull requests, and active commit days. Activity covers the past year." />
+  </picture>
 </p>
 
 <p>
-  <img src="./assets/github-activity.svg" width="100%" alt="A year of building: daily public commit heatmap, with purple intensity indicating the number of indexed commits on each day." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-activity-dark.svg" />
+    <img src="./assets/github-activity.svg" width="100%" alt="A year of building: daily public commit heatmap, with green intensity indicating the number of indexed commits on each day." />
+  </picture>
 </p>
 
 <p>
-  <img src="./assets/github-trend.svg" width="100%" alt="Monthly public commit line chart. Each point is labeled with its monthly total. First and current months are partial." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-trend-dark.svg" />
+    <img src="./assets/github-trend.svg" width="100%" alt="Monthly public commit line chart. Each point is labeled with its monthly total. First and current months are partial." />
+  </picture>
 </p>
 
 <p>
-  <img src="./assets/github-languages.svg" width="100%" alt="Language donut chart showing original public repository counts and percentages by primary language." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-languages-dark.svg" />
+    <img src="./assets/github-languages.svg" width="100%" alt="Language donut chart showing original public repository counts and percentages by primary language." />
+  </picture>
 </p>
 
 <sub>Dated snapshot of public GitHub data. The calendar and trend show indexed public commits, rather than all contribution types; private work is excluded. Languages are counted by original repository, not by lines of code.</sub>
@@ -53,7 +68,10 @@ I bring visual design and application logic together: clear layouts, thoughtful 
 Dashboard and storefront work spanning UI/UX design, visual refinement, user flows, and frontend integration.
 
 <a href="https://www.linkedin.com/posts/genai-fund_aabw2026-aabwxgaf-activity-7482359686189445120-FEhQ">
-  <img src="./assets/achievement.svg" width="100%" alt="Team achievement: F&B Track winner at Agentic AI Build Week 2026. Twohearts, organized by GenAI Fund and sponsored by KFC Vietnam. View announcement." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/achievement-dark.svg" />
+    <img src="./assets/achievement.svg" width="100%" alt="Team achievement: F&B Track winner at Agentic AI Build Week 2026. Twohearts, organized by GenAI Fund and sponsored by KFC Vietnam. View announcement." />
+  </picture>
 </a>
 
 <sub>Part of the winning Twohearts team. <a href="https://www.linkedin.com/posts/genai-fund_aabw2026-aabwxgaf-activity-7482359686189445120-FEhQ">Organizer's announcement ↗</a></sub>
@@ -61,7 +79,10 @@ Dashboard and storefront work spanning UI/UX design, visual refinement, user flo
 ## Something of my own
 
 <a href="https://zuno.page/">
-  <img src="./assets/zuno-card.svg" width="100%" alt="Zuno — Private spaces. Shared moments. Explore my application." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/zuno-card-dark.svg" />
+    <img src="./assets/zuno-card.svg" width="100%" alt="Zuno — Private spaces. Shared moments. Explore my application." />
+  </picture>
 </a>
 
 **[Zuno](https://zuno.page/)** is my personal application: a private social timeline organized into shared spaces called **Zones**. Members share text and images, react to posts, and vote within their space.

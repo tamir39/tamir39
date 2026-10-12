@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="167" viewBox="0 0 1000 167" role="img" aria-labelledby="title"><title id="title">Zuno — Private spaces. Shared moments.</title><style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.reveal,.bar,.pulse,.draw{opacity:1}
+@media(prefers-reduced-motion:no-preference){
+  .reveal{animation:reveal 650ms cubic-bezier(.2,0,0,1) both;animation-delay:var(--delay,0ms)}
+  .bar{transform-box:fill-box;transform-origin:left center;animation:bar 900ms cubic-bezier(.2,0,0,1) both;animation-delay:var(--delay,0ms)}
+  .draw{stroke-dasharray:1;stroke-dashoffset:0;animation:draw 2100ms cubic-bezier(.2,0,0,1) both;animation-delay:var(--delay,0ms)}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 1100ms ease-in-out 3}
+  @keyframes reveal{from{opacity:.2;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes bar{from{transform:scaleX(.15);opacity:.35}to{transform:scaleX(1);opacity:1}}
+  @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+}</style><rect x=".5" y=".5" width="999" height="166" rx="10" fill="#0d1117" stroke="#3d444d"/><text x="28" y="32" font-size="12" fill="#4493f8" font-weight="600" class="mono">PERSONAL APPLICATION / FULL-STACK PWA</text><text x="26" y="78" font-size="37" fill="#f0f6fc" font-weight="600" >Zuno</text><text x="28" y="111" font-size="20" fill="#f0f6fc" font-weight="400" >Private spaces. Shared moments.</text><text x="28" y="143" font-size="14" fill="#9198a1" font-weight="400" >Zones · Timelines · Posts · Votes</text><g transform="translate(708 24)"><rect width="264" height="118" rx="8" fill="#151b23" stroke="#3d444d"/><path d="M30 24V95" stroke="#3d444d"/><g class="reveal" style="--delay:0ms"><circle cx="30" cy="28" r="5" fill="#4493f8"/><path class="draw" pathLength="1" d="M50 28H234" stroke="#9198a1" stroke-width="4" style="--delay:0ms"/></g><g class="reveal" style="--delay:160ms"><circle cx="30" cy="60" r="5" fill="#3fb950"/><path class="draw" pathLength="1" d="M50 60H204" stroke="#9198a1" stroke-width="4" style="--delay:160ms"/></g><g class="reveal" style="--delay:320ms"><circle cx="30" cy="92" r="5" fill="#4493f8"/><path class="draw" pathLength="1" d="M50 92H234" stroke="#9198a1" stroke-width="4" style="--delay:320ms"/></g></g></svg>

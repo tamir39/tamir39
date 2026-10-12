@@ -1,1 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="365" viewBox="0 0 1200 365" role="img" aria-labelledby="title"><title id="title">Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer.</title><style>text{font-family:Arial,Helvetica,sans-serif}</style><rect width="1200" height="365" rx="14" fill="#fff9e9"/><path d="M32 30V335" stroke="#6331a7" stroke-width="4"/><text x="60" y="49" font-size="13" fill="#6331a7" font-weight="700">TAMIR39 / DESIGN + DEVELOPMENT</text><text x="55" y="149" font-size="100" fill="#2b203d" font-weight="700">Tamir</text><rect x="355" y="125" width="17" height="17" fill="#f1c232"/><text x="60" y="193" font-size="22" fill="#665572" font-weight="400">Phí Vương Tường Tâm</text><text x="60" y="242" font-size="29" fill="#6331a7" font-weight="700">Frontend developer &amp; UI/UX designer</text><text x="60" y="279" font-size="19" fill="#665572" font-weight="400">Visual detail. Clear interactions. Complete flows.</text><text x="60" y="325" font-size="13" fill="#665572" font-weight="400">TWOHEARTS TECHNOLOGY · TON DUC THANG UNIVERSITY</text><g transform="translate(838 48)"><rect x="15" y="15" width="278" height="256" rx="12" fill="#f0e4ff"/><rect width="278" height="256" rx="12" fill="#fff9e9" stroke="#6331a7" stroke-width="1.5"/><path d="M0 36H278" stroke="#d9c9e3"/><g fill="#6331a7"><circle cx="18" cy="18" r="3"/><circle cx="29" cy="18" r="3"/><circle cx="40" cy="18" r="3"/></g><rect x="18" y="54" width="71" height="184" rx="6" fill="#f0e4ff"/><path d="M31 74H75M31 93H63M31 112H68" stroke="#6331a7" stroke-opacity=".5" stroke-width="3"/><rect x="105" y="54" width="155" height="79" rx="6" fill="#6331a7"/><path d="M120 75H242M120 95H211" stroke="#fff9e9" stroke-width="4"/><rect x="105" y="149" width="66" height="64" rx="6" fill="#ffe69c"/><rect x="187" y="149" width="73" height="64" rx="6" fill="#f0e4ff"/><path d="M117 226H245" stroke="#d9c9e3" stroke-width="3"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="365" viewBox="0 0 1200 365" role="img" aria-labelledby="title"><title id="title">Tamir — Phí Vương Tường Tâm. Frontend developer and UI/UX designer.</title><style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.reveal,.bar,.pulse,.draw{opacity:1}
+@media(prefers-reduced-motion:no-preference){
+  .reveal{animation:reveal 650ms cubic-bezier(.2,0,0,1) both;animation-delay:var(--delay,0ms)}
+  .bar{transform-box:fill-box;transform-origin:left center;animation:bar 900ms cubic-bezier(.2,0,0,1) both;animation-delay:var(--delay,0ms)}
+  .draw{stroke-dasharray:1;stroke-dashoffset:0;animation:draw 2100ms cubic-bezier(.2,0,0,1) both;animation-delay:var(--delay,0ms)}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 1100ms ease-in-out 3}
+  @keyframes reveal{from{opacity:.2;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes bar{from{transform:scaleX(.15);opacity:.35}to{transform:scaleX(1);opacity:1}}
+  @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+}</style><rect x=".5" y=".5" width="1199" height="364" rx="10" fill="#ffffff" stroke="#d1d9e0"/><path d="M1 43H1199" stroke="#d1d9e0"/><text x="28" y="28" font-size="13" fill="#59636e" font-weight="400" class="mono">tamir39 / README.md</text><circle class="pulse" cx="1116" cy="23" r="4" fill="#1a7f37"/><text x="1127" y="28" font-size="12" fill="#59636e" font-weight="400" >building</text><text x="36" y="145" font-size="82" fill="#1f2328" font-weight="700" >Tamir</text><text x="39" y="184" font-size="21" fill="#59636e" font-weight="400" >Phí Vương Tường Tâm</text><text x="39" y="237" font-size="29" fill="#0969da" font-weight="600" >Frontend developer &amp; UI/UX designer</text><text x="39" y="275" font-size="19" fill="#59636e" font-weight="400" >Visual detail. Clear interactions. Complete flows.</text><text x="39" y="330" font-size="13" fill="#59636e" font-weight="400" >TWOHEARTS TECHNOLOGY · TON DUC THANG UNIVERSITY</text><g transform="translate(820 69)">
+      <rect width="342" height="266" rx="8" fill="#f6f8fa" stroke="#d1d9e0"/>
+      <text x="18" y="29" font-size="12" fill="#59636e" font-weight="400" class="mono">interface.tsx</text>
+      <path d="M0 44H342" stroke="#d1d9e0"/>
+      <g class="reveal" style="--delay:100ms">
+        <text x="18" y="72" font-size="13" fill="#0969da" font-weight="500" class="mono">design → build → refine</text>
+        <rect x="18" y="87" width="306" height="109" rx="6" fill="#ffffff" stroke="#d1d9e0"/>
+        <rect x="32" y="102" width="43" height="80" rx="4" fill="#f6f8fa"/>
+        <path class="draw" pathLength="1" d="M41 118H65M41 132H60M41 146H65" stroke="#59636e" stroke-width="3" style="--delay:250ms"/>
+        <rect class="bar" x="89" y="103" width="218" height="12" rx="3" fill="#ddf4ff" style="--delay:250ms"/>
+        <rect class="bar" x="89" y="124" width="146" height="7" rx="3" fill="#d1d9e0" style="--delay:350ms"/>
+        <path class="draw" pathLength="1" d="M94 166L125 155L158 164L197 143L236 155L275 139L300 147" fill="none" stroke="#1a7f37" stroke-width="2.5" stroke-linejoin="round" style="--delay:450ms"/>
+      </g>
+      <g class="reveal" style="--delay:400ms"><path d="M21 225L26 230L35 219" fill="none" stroke="#1a7f37" stroke-width="2"/><text x="45" y="230" font-size="13" fill="#59636e" font-weight="400" >Thoughtful by design.</text></g>
+    </g></svg>
